@@ -3,11 +3,7 @@
 
 name: Java CI with Maven
 
-on:
-  push:
-    branches: [ master, productManager ]
-  pull_request:
-    branches: [ master, productManager ]
+on: [push]
 
 jobs:
   build:
